@@ -1,6 +1,7 @@
 import day01.Day01
 import day02.Day02
 import day03.Day03
+import day04.Day04
 
 fun main(args: Array<String>) {
     println("Program arguments: ${args.joinToString()}")
@@ -13,4 +14,7 @@ fun main(args: Array<String>) {
     val day03= Day03()
     day03.day0301(args[2])
     day03.day0302(args[2])
+    val day04 = Day04()
+    day04.day0401(args[3])
+    day04.day0402(args[3])
 }
